@@ -1,12 +1,12 @@
 {
-  "name": "lutdev/table-contents",
+  "name": "rjsworking/table-contents",
   "version": "2.1.0",
   "description": "Table of contents generation",
   "keywords": [
     "text",
     "table contents"
   ],
-  "homepage": "https://github.com/lutdev/table-contents",
+  "homepage": "https://github.com/rjsworking/table-contents",
   "license": "MIT",
   "authors": [
     {
@@ -15,15 +15,15 @@
     }
   ],
   "require": {
-    "php": "7.1.*"
+    "php": ">5.4.0"
   },
   "require-dev": {
-    "phpunit/phpunit": "^5.7"
+    "phpunit/phpunit": "^7.0"
   },
   "autoload": {
     "psr-4": {
       "Lutdev\\TOC\\": "src"
     }
   },
-  "minimum-stability": "stable"
+  "minimum-stability": "dev"
 }
